@@ -1,7 +1,8 @@
 #pragma once
+#include <iostream>
 
 class LegacySocket {
 public:
     void connectLegacy();
-    void sendDataLegacy();
+    void sendDataLegacy(std::string);
 };

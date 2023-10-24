@@ -12,8 +12,8 @@ public:
         legacySocket->connectLegacy();
     }
 
-    void sendData() override {
-        legacySocket->sendDataLegacy();
+    void send_file(std::string file) override {
+        legacySocket->sendDataLegacy(file);
     }
 };
 
